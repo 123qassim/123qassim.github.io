@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charles Otaha - Full Stack Developer & Innovator</title>
+  <meta name="description" content="Charles Otaha - Expert Full Stack Developer specializing in Web Development, Mobile Apps, and AI-powered solutions. Portfolio featuring innovative projects.">
+
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+
+    <!--SIDEBAR-->
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Charles Otaha" width="555">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name">Charles Otaha</h1>
+          <p class="title">Full Stack Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:otahacharles@gmail.com" class="contact-link">otahacharles@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+254746373477" class="contact-link">+254 746373477</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2002-09-09">September 09, 2002</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Kakamega, Kenya</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://github.com/123qassim" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://twitter.com/Otaha04" target="_blank" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://linkedin.com" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </aside>
+
+    <!--MAIN CONTENT-->
+    <div class="main-content">
+
+      <!--NAVBAR-->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Skills</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!--ABOUT PAGE-->
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a versatile and innovative Full Stack Developer with a passion for building scalable, intelligent solutions. With expertise in HTML, CSS, JavaScript, Python, PHP, Go, and modern frameworks like React and Node.js, I specialize in transforming complex problems into elegant digital experiences.
+          </p>
+          <p>
+            My mission is to build powerful, user-friendly applications that are not only functional but also visually stunning. I bring a unique combination of technical excellence and creative problem-solving to every project. Whether it's designing responsive web interfaces, architecting robust backend systems, or implementing AI-powered features, I'm committed to delivering solutions that exceed expectations.
+          </p>
+        </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="code-slash-outline"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full Stack Development</h4>
+                <p class="service-item-text">
+                  Building complete web solutions from database design to user interface, using modern tech stacks.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="cube-outline"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Applications</h4>
+                <p class="service-item-text">
+                  Custom web apps with React, Node.js, and modern frameworks. Responsive and production-ready.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Scalable Systems</h4>
+                <p class="service-item-text">
+                  Enterprise solutions including multi-tenant platforms, AI integrations, and complex architectures.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="bulb-outline"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI & Automation</h4>
+                <p class="service-item-text">
+                  Implementing intelligent features like AI-powered report generation and advanced analytics.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--RESUME PAGE-->
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Maseno University</h4>
+              <span>2018 — 2027</span>
+              <p class="timeline-text">
+                Bachelor of Science in Medical Laboratory Science with Information Technology
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Kenya Certificate of Secondary Education</h4>
+              <span>2018 — 2022</span>
+              <p class="timeline-text">
+                Completed secondary education with distinction
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Full Stack Developer</h4>
+              <span>2023 — Present</span>
+              <p class="timeline-text">
+                Developing scalable web applications and systems. Implemented multiple production projects.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Web Developer</h4>
+              <span>2022 — 2023</span>
+              <p class="timeline-text">
+                Built responsive websites and web applications using modern technologies.
+              </p>
+            </li>
+          </ol>
+        </section>
+      </article>
+
+      <!--PORTFOLIO PAGE-->
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web">
+              <a href="https://github.com/123qassim/SchoolNet_360" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                </figure>
+
+                <h3 class="project-title">SchoolNet 360</h3>
+                <p class="project-category">Python / Flask</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web">
+              <a href="https://github.com/123qassim/Smart-Universe" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                </figure>
+
+                <h3 class="project-title">Smart Universe</h3>
+                <p class="project-category">PHP / MySQL</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web">
+              <a href="https://github.com/123qassim/Hospital_Management_System" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                </figure>
+
+                <h3 class="project-title">Hospital Management System</h3>
+                <p class="project-category">PHP / MySQL</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web">
+              <a href="https://github.com/123qassim/GentleSmiles" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                </figure>
+
+                <h3 class="project-title">GentleSmiles - Dental Website</h3>
+                <p class="project-category">HTML / CSS / JavaScript</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web">
+              <a href="https://github.com/123qassim/Shoe_Baze" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                </figure>
+
+                <h3 class="project-title">Shoe Baze - E-Commerce</h3>
+                <p class="project-category">HTML / CSS / JavaScript</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web">
+              <a href="https://github.com/123qassim/recruitment_portal" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                </figure>
+
+                <h3 class="project-title">Recruitment Portal</h3>
+                <p class="project-category">Go / Web</p>
+              </a>
+            </li>
+
+          </ul>
+        </section>
+      </article>
+
+      <!--SKILLS PAGE-->
+      <article class="skills" data-page="skills">
+        <header>
+          <h2 class="h2 article-title">Skills & Technologies</h2>
+        </header>
+
+        <section class="skills-content">
+          <div class="skills-group">
+            <h3 class="h3 skills-title">Frontend</h3>
+            <ul class="skills-list">
+              <li class="skills-item">
+                <span class="skill-name">HTML5</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 95%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <span class="skill-name">CSS3 / SASS</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <span class="skill-name">JavaScript</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 88%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <span class="skill-name">React</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skills-group">
+            <h3 class="h3 skills-title">Backend</h3>
+            <ul class="skills-list">
+              <li class="skills-item">
+                <span class="skill-name">Node.js</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 87%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <span class="skill-name">Python / Flask</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <span class="skill-name">PHP</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 82%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <span class="skill-name">Go</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 75%"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skills-group">
+            <h3 class="h3 skills-title">Databases & Tools</h3>
+            <ul class="skills-list">
+              <li class="skills-item">
+                <span class="skill-name">MySQL / PostgreSQL</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 88%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <span class="skill-name">MongoDB</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 80%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <span class="skill-name">Git / GitHub</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 92%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <span class="skill-name">Docker</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 78%"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+
+      <!--CONTACT PAGE-->
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-content">
+          <h3 class="h3 contact-title">Get In Touch</h3>
+          <p class="contact-text">
+            I'm always open to new opportunities and collaborations. Feel free to reach out!
+          </p>
+
+          <div class="contact-info-group">
+            <div class="contact-card">
+              <h4 class="h4 contact-card-title">Email</h4>
+              <a href="mailto:otahacharles@gmail.com" class="contact-card-link">otahacharles@gmail.com</a>
+            </div>
+
+            <div class="contact-card">
+              <h4 class="h4 contact-card-title">Phone</h4>
+              <a href="tel:+254746373477" class="contact-card-link">+254 746373477</a>
+            </div>
+
+            <div class="contact-card">
+              <h4 class="h4 contact-card-title">GitHub</h4>
+              <a href="https://github.com/123qassim" target="_blank" class="contact-card-link">github.com/123qassim</a>
+            </div>
+
+            <div class="contact-card">
+              <h4 class="h4 contact-card-title">Location</h4>
+              <span class="contact-card-link">Kakamega, Kenya</span>
+            </div>
+          </div>
+        </section>
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - ion icon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
